@@ -1,0 +1,50 @@
+#deleteButton {
+  background-color: transparent;
+  border-width: 0;
+  transition-duration: 0.3s;
+}
+
+#deleteButton:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+#beerContainer {
+  transition-duration: 0.3s;
+}
+
+#beerContainer:hover {
+  transform: translateY(-2px);
+}
+
+#beerContainer {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  border-color: #EBECE9;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#beerContainer div {
+  flex: 1;
+  text-align: left;
+}
+
+#deleteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#deleteButton:hover {
+  opacity: 0.8;
+}
+
+li {
+  list-style: none;
+}
